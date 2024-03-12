@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/java/DeputyProjectPageFactory/DeputyProjectPageFactory/src/test/java/org/deputypagestests">
+        <classes>
+
+            <class name="org.deputypagestests.TasksPageTest">
+                <methods>
+                    <include name="createTaskTest"/>
+                    <include name="deleteTask"/>
+                    <include name="editTaskTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
